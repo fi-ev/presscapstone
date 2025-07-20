@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: asset('/fonts/Inter/Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: asset('/fonts/Inter/Inter.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
